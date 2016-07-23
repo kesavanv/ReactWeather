@@ -1,0 +1,343 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/Users/kvaratharajan/.nvm/v0.10.40/bin/node',
+1 verbose cli   '/Users/kvaratharajan/.nvm/v0.10.40/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '--save-dev',
+1 verbose cli   'webpack@1.12.13',
+1 verbose cli   'babel-core6.5.1',
+1 verbose cli   'babel-loader@6.2.2',
+1 verbose cli   'babel-preset-es2015@6.5.0',
+1 verbose cli   'babel-preset-react@6.5.0' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.40
+4 warn package.json hello-react@1.0.0 No description
+5 warn package.json hello-react@1.0.0 No repository field.
+6 warn package.json hello-react@1.0.0 No README data
+7 verbose readDependencies using package.json deps
+8 verbose cache add [ 'webpack@1.12.13', null ]
+9 verbose cache add name=undefined spec="webpack@1.12.13" args=["webpack@1.12.13",null]
+10 verbose parsed url { protocol: null,
+10 verbose parsed url   slashes: null,
+10 verbose parsed url   auth: null,
+10 verbose parsed url   host: null,
+10 verbose parsed url   port: null,
+10 verbose parsed url   hostname: null,
+10 verbose parsed url   hash: null,
+10 verbose parsed url   search: null,
+10 verbose parsed url   query: null,
+10 verbose parsed url   pathname: 'webpack@1.12.13',
+10 verbose parsed url   path: 'webpack@1.12.13',
+10 verbose parsed url   href: 'webpack@1.12.13' }
+11 verbose cache add [ 'babel-core6.5.1', null ]
+12 verbose cache add name=undefined spec="babel-core6.5.1" args=["babel-core6.5.1",null]
+13 verbose parsed url { protocol: null,
+13 verbose parsed url   slashes: null,
+13 verbose parsed url   auth: null,
+13 verbose parsed url   host: null,
+13 verbose parsed url   port: null,
+13 verbose parsed url   hostname: null,
+13 verbose parsed url   hash: null,
+13 verbose parsed url   search: null,
+13 verbose parsed url   query: null,
+13 verbose parsed url   pathname: 'babel-core6.5.1',
+13 verbose parsed url   path: 'babel-core6.5.1',
+13 verbose parsed url   href: 'babel-core6.5.1' }
+14 verbose cache add [ 'babel-loader@6.2.2', null ]
+15 verbose cache add name=undefined spec="babel-loader@6.2.2" args=["babel-loader@6.2.2",null]
+16 verbose parsed url { protocol: null,
+16 verbose parsed url   slashes: null,
+16 verbose parsed url   auth: null,
+16 verbose parsed url   host: null,
+16 verbose parsed url   port: null,
+16 verbose parsed url   hostname: null,
+16 verbose parsed url   hash: null,
+16 verbose parsed url   search: null,
+16 verbose parsed url   query: null,
+16 verbose parsed url   pathname: 'babel-loader@6.2.2',
+16 verbose parsed url   path: 'babel-loader@6.2.2',
+16 verbose parsed url   href: 'babel-loader@6.2.2' }
+17 verbose cache add [ 'babel-preset-es2015@6.5.0', null ]
+18 verbose cache add name=undefined spec="babel-preset-es2015@6.5.0" args=["babel-preset-es2015@6.5.0",null]
+19 verbose parsed url { protocol: null,
+19 verbose parsed url   slashes: null,
+19 verbose parsed url   auth: null,
+19 verbose parsed url   host: null,
+19 verbose parsed url   port: null,
+19 verbose parsed url   hostname: null,
+19 verbose parsed url   hash: null,
+19 verbose parsed url   search: null,
+19 verbose parsed url   query: null,
+19 verbose parsed url   pathname: 'babel-preset-es2015@6.5.0',
+19 verbose parsed url   path: 'babel-preset-es2015@6.5.0',
+19 verbose parsed url   href: 'babel-preset-es2015@6.5.0' }
+20 verbose cache add [ 'babel-preset-react@6.5.0', null ]
+21 verbose cache add name=undefined spec="babel-preset-react@6.5.0" args=["babel-preset-react@6.5.0",null]
+22 verbose parsed url { protocol: null,
+22 verbose parsed url   slashes: null,
+22 verbose parsed url   auth: null,
+22 verbose parsed url   host: null,
+22 verbose parsed url   port: null,
+22 verbose parsed url   hostname: null,
+22 verbose parsed url   hash: null,
+22 verbose parsed url   search: null,
+22 verbose parsed url   query: null,
+22 verbose parsed url   pathname: 'babel-preset-react@6.5.0',
+22 verbose parsed url   path: 'babel-preset-react@6.5.0',
+22 verbose parsed url   href: 'babel-preset-react@6.5.0' }
+23 verbose cache add name="webpack" spec="1.12.13" args=["webpack","1.12.13"]
+24 verbose parsed url { protocol: null,
+24 verbose parsed url   slashes: null,
+24 verbose parsed url   auth: null,
+24 verbose parsed url   host: null,
+24 verbose parsed url   port: null,
+24 verbose parsed url   hostname: null,
+24 verbose parsed url   hash: null,
+24 verbose parsed url   search: null,
+24 verbose parsed url   query: null,
+24 verbose parsed url   pathname: '1.12.13',
+24 verbose parsed url   path: '1.12.13',
+24 verbose parsed url   href: '1.12.13' }
+25 verbose addNamed [ 'webpack', '1.12.13' ]
+26 verbose addNamed [ '1.12.13', '1.12.13' ]
+27 verbose cache add name="babel-loader" spec="6.2.2" args=["babel-loader","6.2.2"]
+28 verbose parsed url { protocol: null,
+28 verbose parsed url   slashes: null,
+28 verbose parsed url   auth: null,
+28 verbose parsed url   host: null,
+28 verbose parsed url   port: null,
+28 verbose parsed url   hostname: null,
+28 verbose parsed url   hash: null,
+28 verbose parsed url   search: null,
+28 verbose parsed url   query: null,
+28 verbose parsed url   pathname: '6.2.2',
+28 verbose parsed url   path: '6.2.2',
+28 verbose parsed url   href: '6.2.2' }
+29 verbose addNamed [ 'babel-loader', '6.2.2' ]
+30 verbose addNamed [ '6.2.2', '6.2.2' ]
+31 verbose cache add name="babel-preset-es2015" spec="6.5.0" args=["babel-preset-es2015","6.5.0"]
+32 verbose parsed url { protocol: null,
+32 verbose parsed url   slashes: null,
+32 verbose parsed url   auth: null,
+32 verbose parsed url   host: null,
+32 verbose parsed url   port: null,
+32 verbose parsed url   hostname: null,
+32 verbose parsed url   hash: null,
+32 verbose parsed url   search: null,
+32 verbose parsed url   query: null,
+32 verbose parsed url   pathname: '6.5.0',
+32 verbose parsed url   path: '6.5.0',
+32 verbose parsed url   href: '6.5.0' }
+33 verbose addNamed [ 'babel-preset-es2015', '6.5.0' ]
+34 verbose addNamed [ '6.5.0', '6.5.0' ]
+35 verbose cache add name="babel-preset-react" spec="6.5.0" args=["babel-preset-react","6.5.0"]
+36 verbose parsed url { protocol: null,
+36 verbose parsed url   slashes: null,
+36 verbose parsed url   auth: null,
+36 verbose parsed url   host: null,
+36 verbose parsed url   port: null,
+36 verbose parsed url   hostname: null,
+36 verbose parsed url   hash: null,
+36 verbose parsed url   search: null,
+36 verbose parsed url   query: null,
+36 verbose parsed url   pathname: '6.5.0',
+36 verbose parsed url   path: '6.5.0',
+36 verbose parsed url   href: '6.5.0' }
+37 verbose addNamed [ 'babel-preset-react', '6.5.0' ]
+38 verbose addNamed [ '6.5.0', '6.5.0' ]
+39 silly lockFile 6eda4544-webpack-1-12-13 webpack@1.12.13
+40 verbose lock webpack@1.12.13 /Users/kvaratharajan/.npm/6eda4544-webpack-1-12-13.lock
+41 silly lockFile e51a6790-babel-core6-5-1 babel-core6.5.1
+42 verbose lock babel-core6.5.1 /Users/kvaratharajan/.npm/e51a6790-babel-core6-5-1.lock
+43 silly lockFile d96ca0b0-babel-loader-6-2-2 babel-loader@6.2.2
+44 verbose lock babel-loader@6.2.2 /Users/kvaratharajan/.npm/d96ca0b0-babel-loader-6-2-2.lock
+45 silly lockFile 14ddf40b-babel-preset-es2015-6-5-0 babel-preset-es2015@6.5.0
+46 verbose lock babel-preset-es2015@6.5.0 /Users/kvaratharajan/.npm/14ddf40b-babel-preset-es2015-6-5-0.lock
+47 silly lockFile 51c7cdfc-babel-preset-react-6-5-0 babel-preset-react@6.5.0
+48 verbose lock babel-preset-react@6.5.0 /Users/kvaratharajan/.npm/51c7cdfc-babel-preset-react-6-5-0.lock
+49 silly lockFile e51a6790-babel-core6-5-1 babel-core6.5.1
+50 silly lockFile e51a6790-babel-core6-5-1 babel-core6.5.1
+51 verbose addNamed [ 'babel-core6.5.1', '' ]
+52 verbose addNamed [ null, '*' ]
+53 silly lockFile 0e37eac4-babel-core6-5-1 babel-core6.5.1@
+54 verbose lock babel-core6.5.1@ /Users/kvaratharajan/.npm/0e37eac4-babel-core6-5-1.lock
+55 verbose request where is /babel-loader
+56 verbose request registry http://registry.nodejitsu.com/
+57 verbose request id d7b384a5ccbe5965
+58 verbose url raw /babel-loader
+59 verbose url resolving [ 'http://registry.nodejitsu.com/', './babel-loader' ]
+60 verbose url resolved http://registry.nodejitsu.com/babel-loader
+61 verbose request where is http://registry.nodejitsu.com/babel-loader
+62 info trying registry request attempt 1 at 12:19:46
+63 http GET http://registry.nodejitsu.com/babel-loader
+64 verbose request where is /babel-preset-es2015
+65 verbose request registry http://registry.nodejitsu.com/
+66 verbose url raw /babel-preset-es2015
+67 verbose url resolving [ 'http://registry.nodejitsu.com/', './babel-preset-es2015' ]
+68 verbose url resolved http://registry.nodejitsu.com/babel-preset-es2015
+69 verbose request where is http://registry.nodejitsu.com/babel-preset-es2015
+70 info trying registry request attempt 1 at 12:19:46
+71 http GET http://registry.nodejitsu.com/babel-preset-es2015
+72 verbose request where is /babel-preset-react
+73 verbose request registry http://registry.nodejitsu.com/
+74 verbose url raw /babel-preset-react
+75 verbose url resolving [ 'http://registry.nodejitsu.com/', './babel-preset-react' ]
+76 verbose url resolved http://registry.nodejitsu.com/babel-preset-react
+77 verbose request where is http://registry.nodejitsu.com/babel-preset-react
+78 info trying registry request attempt 1 at 12:19:46
+79 http GET http://registry.nodejitsu.com/babel-preset-react
+80 silly addNameRange { name: 'babel-core6.5.1', range: '*', hasData: false }
+81 verbose request where is /webpack
+82 verbose request registry http://registry.nodejitsu.com/
+83 verbose url raw /webpack
+84 verbose url resolving [ 'http://registry.nodejitsu.com/', './webpack' ]
+85 verbose url resolved http://registry.nodejitsu.com/webpack
+86 verbose request where is http://registry.nodejitsu.com/webpack
+87 info trying registry request attempt 1 at 12:19:46
+88 verbose etag "7QWV9QFQAKGHQ7V152TU098AV"
+89 http GET http://registry.nodejitsu.com/webpack
+90 verbose request where is /babel-core6.5.1
+91 verbose request registry http://registry.nodejitsu.com/
+92 verbose url raw /babel-core6.5.1
+93 verbose url resolving [ 'http://registry.nodejitsu.com/', './babel-core6.5.1' ]
+94 verbose url resolved http://registry.nodejitsu.com/babel-core6.5.1
+95 verbose request where is http://registry.nodejitsu.com/babel-core6.5.1
+96 info trying registry request attempt 1 at 12:19:46
+97 http GET http://registry.nodejitsu.com/babel-core6.5.1
+98 http 304 http://registry.nodejitsu.com/webpack
+99 silly registry.get cb [ 304,
+99 silly registry.get   { date: 'Sat, 23 Jul 2016 06:49:48 GMT',
+99 silly registry.get     via: '1.1 varnish',
+99 silly registry.get     'cache-control': 'max-age=300',
+99 silly registry.get     etag: '"7QWV9QFQAKGHQ7V152TU098AV"',
+99 silly registry.get     age: '9',
+99 silly registry.get     connection: 'close',
+99 silly registry.get     'x-served-by': 'cache-dfw1842-DFW',
+99 silly registry.get     'x-cache': 'HIT',
+99 silly registry.get     'x-cache-hits': '1',
+99 silly registry.get     'x-timer': 'S1469256588.399408,VS0,VE0',
+99 silly registry.get     vary: 'Accept-Encoding' } ]
+100 verbose etag http://registry.nodejitsu.com/webpack from cache
+101 silly lockFile 6eda4544-webpack-1-12-13 webpack@1.12.13
+102 silly lockFile 6eda4544-webpack-1-12-13 webpack@1.12.13
+103 http 200 http://registry.nodejitsu.com/babel-loader
+104 silly registry.get cb [ 200,
+104 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+104 silly registry.get     etag: '"135L66PCNKWI4FHX2T2XHECNO"',
+104 silly registry.get     'content-type': 'application/json',
+104 silly registry.get     'content-encoding': 'gzip',
+104 silly registry.get     'cache-control': 'max-age=300',
+104 silly registry.get     'content-length': '8156',
+104 silly registry.get     'accept-ranges': 'bytes',
+104 silly registry.get     date: 'Sat, 23 Jul 2016 06:49:48 GMT',
+104 silly registry.get     via: '1.1 varnish',
+104 silly registry.get     age: '0',
+104 silly registry.get     connection: 'close',
+104 silly registry.get     'x-served-by': 'cache-dfw1842-DFW',
+104 silly registry.get     'x-cache': 'HIT',
+104 silly registry.get     'x-cache-hits': '1',
+104 silly registry.get     'x-timer': 'S1469256588.416333,VS0,VE47',
+104 silly registry.get     vary: 'Accept-Encoding' } ]
+105 silly lockFile 4ff4a484-el-loader-babel-loader-6-2-2-tgz https://registry.npmjs.org/babel-loader/-/babel-loader-6.2.2.tgz
+106 verbose lock https://registry.npmjs.org/babel-loader/-/babel-loader-6.2.2.tgz /Users/kvaratharajan/.npm/4ff4a484-el-loader-babel-loader-6-2-2-tgz.lock
+107 verbose addRemoteTarball [ 'https://registry.npmjs.org/babel-loader/-/babel-loader-6.2.2.tgz',
+107 verbose addRemoteTarball   '31f46096afa5cd6fde2e750348e19cdef87d5d24' ]
+108 info retry fetch attempt 1 at 12:19:48
+109 verbose fetch to= /var/folders/n9/9vp9j7ns1z5czj0qvy0zv8s438y1kx/T/npm-51105-bHeZ-TFP/registry.npmjs.org/babel-loader/-/babel-loader-6.2.2.tgz
+110 http GET https://registry.npmjs.org/babel-loader/-/babel-loader-6.2.2.tgz
+111 http 200 http://registry.nodejitsu.com/babel-preset-react
+112 silly registry.get cb [ 200,
+112 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+112 silly registry.get     etag: '"DFEHWR0H47RBK87ZXX9OHI0N7"',
+112 silly registry.get     'content-type': 'application/json',
+112 silly registry.get     'content-encoding': 'gzip',
+112 silly registry.get     'cache-control': 'max-age=300',
+112 silly registry.get     'content-length': '2860',
+112 silly registry.get     'accept-ranges': 'bytes',
+112 silly registry.get     date: 'Sat, 23 Jul 2016 06:49:48 GMT',
+112 silly registry.get     via: '1.1 varnish',
+112 silly registry.get     age: '0',
+112 silly registry.get     connection: 'close',
+112 silly registry.get     'x-served-by': 'cache-dfw1825-DFW',
+112 silly registry.get     'x-cache': 'HIT',
+112 silly registry.get     'x-cache-hits': '1',
+112 silly registry.get     'x-timer': 'S1469256588.407280,VS0,VE185',
+112 silly registry.get     vary: 'Accept-Encoding' } ]
+113 silly lockFile 94baaa63-act-babel-preset-react-6-5-0-tgz https://registry.npmjs.org/babel-preset-react/-/babel-preset-react-6.5.0.tgz
+114 verbose lock https://registry.npmjs.org/babel-preset-react/-/babel-preset-react-6.5.0.tgz /Users/kvaratharajan/.npm/94baaa63-act-babel-preset-react-6-5-0-tgz.lock
+115 verbose addRemoteTarball [ 'https://registry.npmjs.org/babel-preset-react/-/babel-preset-react-6.5.0.tgz',
+115 verbose addRemoteTarball   'd3289aa0e308dbd48b7210f9977101f0f96ebe1f' ]
+116 info retry fetch attempt 1 at 12:19:48
+117 verbose fetch to= /var/folders/n9/9vp9j7ns1z5czj0qvy0zv8s438y1kx/T/npm-51105-bHeZ-TFP/registry.npmjs.org/babel-preset-react/-/babel-preset-react-6.5.0.tgz
+118 http GET https://registry.npmjs.org/babel-preset-react/-/babel-preset-react-6.5.0.tgz
+119 http 404 http://registry.nodejitsu.com/babel-core6.5.1
+120 silly registry.get cb [ 404,
+120 silly registry.get   { 'content-type': 'application/json',
+120 silly registry.get     'cache-control': 'max-age=0',
+120 silly registry.get     'content-length': '2',
+120 silly registry.get     'accept-ranges': 'bytes',
+120 silly registry.get     date: 'Sat, 23 Jul 2016 06:49:48 GMT',
+120 silly registry.get     via: '1.1 varnish',
+120 silly registry.get     age: '0',
+120 silly registry.get     connection: 'close',
+120 silly registry.get     'x-served-by': 'cache-dfw1839-DFW',
+120 silly registry.get     'x-cache': 'MISS',
+120 silly registry.get     'x-cache-hits': '0',
+120 silly registry.get     'x-timer': 'S1469256588.421010,VS0,VE252',
+120 silly registry.get     vary: 'Accept-Encoding' } ]
+121 silly lockFile 0e37eac4-babel-core6-5-1 babel-core6.5.1@
+122 silly lockFile 0e37eac4-babel-core6-5-1 babel-core6.5.1@
+123 http 200 http://registry.nodejitsu.com/babel-preset-es2015
+124 silly registry.get cb [ 200,
+124 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+124 silly registry.get     etag: '"4QX81I6WRW3CZKYZ5JM56XSE8"',
+124 silly registry.get     'content-type': 'application/json',
+124 silly registry.get     'content-encoding': 'gzip',
+124 silly registry.get     'cache-control': 'max-age=300',
+124 silly registry.get     'content-length': '4226',
+124 silly registry.get     'accept-ranges': 'bytes',
+124 silly registry.get     date: 'Sat, 23 Jul 2016 06:49:48 GMT',
+124 silly registry.get     via: '1.1 varnish',
+124 silly registry.get     age: '0',
+124 silly registry.get     connection: 'close',
+124 silly registry.get     'x-served-by': 'cache-dfw1830-DFW',
+124 silly registry.get     'x-cache': 'HIT',
+124 silly registry.get     'x-cache-hits': '1',
+124 silly registry.get     'x-timer': 'S1469256588.415638,VS0,VE276',
+124 silly registry.get     vary: 'Accept-Encoding' } ]
+125 silly lockFile 346d7f3f-15-babel-preset-es2015-6-5-0-tgz https://registry.npmjs.org/babel-preset-es2015/-/babel-preset-es2015-6.5.0.tgz
+126 verbose lock https://registry.npmjs.org/babel-preset-es2015/-/babel-preset-es2015-6.5.0.tgz /Users/kvaratharajan/.npm/346d7f3f-15-babel-preset-es2015-6-5-0-tgz.lock
+127 verbose addRemoteTarball [ 'https://registry.npmjs.org/babel-preset-es2015/-/babel-preset-es2015-6.5.0.tgz',
+127 verbose addRemoteTarball   'a36dbebf7b40041bb22f8080db52846cde6c1037' ]
+128 info retry fetch attempt 1 at 12:19:48
+129 verbose fetch to= /var/folders/n9/9vp9j7ns1z5czj0qvy0zv8s438y1kx/T/npm-51105-bHeZ-TFP/registry.npmjs.org/babel-preset-es2015/-/babel-preset-es2015-6.5.0.tgz
+130 http GET https://registry.npmjs.org/babel-preset-es2015/-/babel-preset-es2015-6.5.0.tgz
+131 http 200 https://registry.npmjs.org/babel-preset-es2015/-/babel-preset-es2015-6.5.0.tgz
+132 silly lockFile 346d7f3f-15-babel-preset-es2015-6-5-0-tgz https://registry.npmjs.org/babel-preset-es2015/-/babel-preset-es2015-6.5.0.tgz
+133 silly lockFile 346d7f3f-15-babel-preset-es2015-6-5-0-tgz https://registry.npmjs.org/babel-preset-es2015/-/babel-preset-es2015-6.5.0.tgz
+134 silly lockFile 14ddf40b-babel-preset-es2015-6-5-0 babel-preset-es2015@6.5.0
+135 silly lockFile 14ddf40b-babel-preset-es2015-6-5-0 babel-preset-es2015@6.5.0
+136 http 200 https://registry.npmjs.org/babel-preset-react/-/babel-preset-react-6.5.0.tgz
+137 silly lockFile 94baaa63-act-babel-preset-react-6-5-0-tgz https://registry.npmjs.org/babel-preset-react/-/babel-preset-react-6.5.0.tgz
+138 silly lockFile 94baaa63-act-babel-preset-react-6-5-0-tgz https://registry.npmjs.org/babel-preset-react/-/babel-preset-react-6.5.0.tgz
+139 silly lockFile 51c7cdfc-babel-preset-react-6-5-0 babel-preset-react@6.5.0
+140 silly lockFile 51c7cdfc-babel-preset-react-6-5-0 babel-preset-react@6.5.0
+141 http 200 https://registry.npmjs.org/babel-loader/-/babel-loader-6.2.2.tgz
+142 silly lockFile 4ff4a484-el-loader-babel-loader-6-2-2-tgz https://registry.npmjs.org/babel-loader/-/babel-loader-6.2.2.tgz
+143 silly lockFile 4ff4a484-el-loader-babel-loader-6-2-2-tgz https://registry.npmjs.org/babel-loader/-/babel-loader-6.2.2.tgz
+144 silly lockFile d96ca0b0-babel-loader-6-2-2 babel-loader@6.2.2
+145 silly lockFile d96ca0b0-babel-loader-6-2-2 babel-loader@6.2.2
+146 error 404 Not Found
+146 error 404
+146 error 404 'babel-core6.5.1' is not in the npm registry.
+146 error 404 You should bug the author to publish it
+146 error 404 It was specified as a dependency of 'hello-react'
+146 error 404
+146 error 404 Note that you can also install from a
+146 error 404 tarball, folder, or http url, or git url.
+147 error System Darwin 15.6.0
+148 error command "/Users/kvaratharajan/.nvm/v0.10.40/bin/node" "/Users/kvaratharajan/.nvm/v0.10.40/bin/npm" "install" "--save-dev" "webpack@1.12.13" "babel-core6.5.1" "babel-loader@6.2.2" "babel-preset-es2015@6.5.0" "babel-preset-react@6.5.0"
+149 error cwd /Users/kvaratharajan/Documents/Github/Playgroud/react/learn/HelloReact
+150 error node -v v0.10.40
+151 error npm -v 1.4.28
+152 error code E404
+153 verbose exit [ 1, true ]
